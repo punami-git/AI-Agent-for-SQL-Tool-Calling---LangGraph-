@@ -94,8 +94,9 @@ st.markdown(
       <div class="pill">Natural Language Querying</div>
       <h1 style="margin:10px 0 8px 0;">Natural Language to SQL</h1>
       <p style="margin:0; max-width:880px;">
-        This is an AI assistant that lets you ask questions about your data in plain English. It automatically turns your question into an SQL query, runs it on the database, and shows you accurate results instantly.
-        Behind the scenes, it uses modern AI tools like LangChain, LangGraph, Groq and tool calling to understand your question and connect to the database.
+        This is an AI assistant that lets you ask questions about your data in plain English. <br><br>
+        It automatically turns your question into an SQL query, runs it on the database, and shows you accurate results instantly.
+        Behind the scenes, it uses modern AI tools like LangChain, LangGraph, Groq and tool calling to understand your question and connect to the database. <br><br>
         Ask a question below to see it in action.
     
       </p>
