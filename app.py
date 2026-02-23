@@ -94,8 +94,11 @@ st.markdown(
       <div class="pill">Natural Language Querying</div>
       <h1 style="margin:10px 0 8px 0;">Natural Language to SQL</h1>
       <p style="margin:0; max-width:880px;">
-        This is a conversational AI Agent that calls an SQL tool. It translates natural language questions into SQL queries, executes them against a database, and returns accurate results in real time.
-        Ask a question below, it will convert your question into an SQL query. You can explore the mock data in the tables below.
+        This is an AI assistant that lets you ask questions about your data in plain English. It automatically turns your question into an SQL query, runs it on the database, and shows you accurate results instantly.
+        Behind the scenes, it uses modern AI tools like LangChain, LangGraph, Groq and tool calling to understand your question and connect to the database.
+
+        Ask a question below to see it in action.
+    
       </p>
     </div>
     """,
