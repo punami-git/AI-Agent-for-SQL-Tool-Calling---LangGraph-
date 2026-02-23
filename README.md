@@ -1,6 +1,5 @@
 # Natural Language to SQL Agent (LangGraph + Groq + Streamlit)
 
-This project is a demo app for an AI Engineer interview:
 - Simple mock transaction data in SQLite
 - Natural-language query input
 - LangGraph agent with SQL tool calling (`get_schema`, `run_sql`)
