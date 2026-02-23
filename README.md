@@ -1,3 +1,7 @@
+# Streamlit App
+https://ai-agent-for-sql.streamlit.app/
+
+
 # Natural Language to SQL Agent (LangGraph + Groq + Streamlit)
 
 - Simple mock transaction data in SQLite
