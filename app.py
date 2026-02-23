@@ -94,8 +94,8 @@ st.markdown(
       <div class="pill">Natural Language Querying</div>
       <h1 style="margin:10px 0 8px 0;">Natural Language to SQL</h1>
       <p style="margin:0; max-width:880px;">
-        This is an AI Agent that calls an SQL tool. Ask a question below, it will convert your question into an SQL query,
-        run it against the data, and return the resulting table. You can explore the mock data in the tables below.
+        This is a conversational AI Agent that calls an SQL tool. It translates natural language questions into SQL queries, executes them against a database, and returns accurate results in real time.
+        Ask a question below, it will convert your question into an SQL query. You can explore the mock data in the tables below.
       </p>
     </div>
     """,
@@ -119,13 +119,12 @@ col3.metric("Transactions > 10,000", over_10k_count)
 st.subheader("Dataset")
 with st.expander("View mock tables", expanded=True):
     selected = st.selectbox("Choose table", TABLES, index=0)
-    st.dataframe(load_table(selected), use_container_width=True, height=330)
+    st.dataframe(load_table(selected), use_container_width=True, height=130)
 
 st.subheader("Ask in natural language")
 example_questions = [
     "Show all failed transactions with reason and retry count.",
     "List transactions with amount greater than 10000.",
-    "Count failed transactions by counterparty.",
     "Show average transaction amount by payment method.",
 ]
 st.write("Try one of these:")
